@@ -11,10 +11,10 @@ export const Statistics = ({
   return (
     <>
       <Title>Statistics</Title>
-      <Label>Good: {good}</Label>
-      <Label>Neutral: {neutral}</Label>
-      <Label>Bad: {bad}</Label>
-      <Label>Total: {total}</Label>
+      <p>Good: {good}</p>
+      <p>Neutral: {neutral}</p>
+      <p>Bad: {bad}</p>
+      <p>Total: {total}</p>
       <Label>Positive feedback: {total > 0 ? positivePercentage : 0}%</Label>
     </>
   );
